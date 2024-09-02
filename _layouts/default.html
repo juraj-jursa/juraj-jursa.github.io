@@ -26,13 +26,10 @@
         <ul>
           {%-for page in site.pages-%}
             <li>
-            {%- if page.url -%}
-              <a href="{{ item.url }}">{{ page.title }}</a>
-            {%- else -%}
-              {{ page.title }}
-            {%- endif -%}
+              <a href="{{ page.url }}">{{ page.title }}</a>
             </li>
-        
+          {% endfor %}
+          </ul>
 
 
         {% if site.show_downloads %}
