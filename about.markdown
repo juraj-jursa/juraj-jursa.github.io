@@ -5,9 +5,10 @@ permalink: /about/
 ---
 
 
-My name is Juraj Jursa. I graduated New York University in 2022 and have worked as a Quantitative Researcher at a small hedge fund shop called SCT Capital Management since. 
+My name is Juraj Jursa. I graduated New York University in 2022 and have worked as a Quantitative Researcher at a small quant shop since.
 
-I am interested in sharing my thoughts and 
+ 
+
 
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
