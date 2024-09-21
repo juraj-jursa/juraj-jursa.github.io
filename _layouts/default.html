@@ -26,10 +26,20 @@
         <ul>
           {%-for page in site.pages-%}
             <li>
-              <a href="{{ page.url }}">{{ page.title }}</a>
+              <a href="{{ page.url }}">{{ page.name }} {{ page.path }}</a>
             </li>
           {% endfor %}
           </ul>
+
+          <ul>
+            {%-for col in site.collections-%}
+              <li>
+                <h>{{ col }}</h>
+              </li>
+            {% endfor %}
+            </ul>
+
+
 
 
         {% if site.show_downloads %}
